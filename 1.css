@@ -1,0 +1,165 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to left bottom, lightyellow, rgb(248, 248, 240), lightyellow);
+
+}
+header{
+background: lightgray;
+width: 100%;
+height: 239px;
+flex-shrink: 0;
+    
+}
+header img{
+    width: 300px;
+height: 98px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+nav{
+    display: flexbox;
+width: 1344px;
+height: 100px;
+flex-shrink: 0;
+fill: #FFFD40;
+
+    
+}
+
+
+a{
+padding-right: 80px;
+
+height: 23px;
+flex-shrink: 0;color: #9D0019;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color:rgb(216, 219, 19);
+width:20px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 20px;
+
+}
+a:hover{
+    background-color: rgb(129, 223, 35);
+       box-shadow: 4px 4px 5px 2px rgb(243, 124, 44); 
+       font-size: 22px;
+}
+.nav{
+    display: flexbox;
+  padding-left: 80px; 
+}
+
+h1{
+text-align: center;
+
+
+}
+.dostawka{
+
+    text-align: left;
+}
+.dostawka:hover{
+    transform: translateX(300px);
+    transition: 5s linear; 
+}
+
+h2{
+
+    text-align: center;
+    color: rgb(0, 255, 136);
+
+
+}
+span{
+background-color: darkolivegreen;
+width: 256px;
+padding: 10px;
+border-radius: 10px;
+}
+span:hover{
+    background-color: rgb(227, 235, 16);
+}
+.place{
+
+    text-align:;
+}
+.img1{
+
+ width: 300px;
+height: 98px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+
+}
+
+
+.div1{
+display: flex;
+}
+
+.div2{
+display: flex;
+
+}
+
+.p1{
+text-align:center;
+
+}
+.p2{
+ text-align:center;   
+}
+.p3{
+     text-align:center;
+}
+.img2{
+justify-content: center;
+
+}
+
+.nav12{
+
+color: maroon;
+
+}
+
+.i1{
+
+    width: 74px;
+height: 67px;
+flex-shrink: 0;
+}
+.i2{
+
+ width: 74px;
+height: 67px;
+flex-shrink: 0;   
+}
+
+footer{
+background-color: lightgray;
+height: 240px;
+}
+.img6{
+width: 300px;
+height: 98px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+article:hover{
+       transform: scale(1.1);
+    transition: 1s linear;
+}
+iframe{
+    position: relative;
+ top: -108px;
+ 
+   float:inline-end;
+}
